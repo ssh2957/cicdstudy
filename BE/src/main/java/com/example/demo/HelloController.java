@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("/test")
     public String test() {
-        return "테스트 api를 호출하셨습니다";
+        return "테스트 api를 호출하셨습니다 도커로 말이죠~";
     }
 }
